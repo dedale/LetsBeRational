@@ -1,20 +1,25 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual C++ Express 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lets_be_rational", "lets_be_rational.vcproj", "{BD763CE9-6860-49EA-8A5B-A0E70C929AEB}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "lets_be_rational", "lets_be_rational.csproj", "{4CEA0BAD-ED12-4798-B9EC-736315E03AEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Win32 = Debug|Win32
-		Release|Win32 = Release|Win32
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BD763CE9-6860-49EA-8A5B-A0E70C929AEB}.Debug|Win32.ActiveCfg = Debug|Win32
-		{BD763CE9-6860-49EA-8A5B-A0E70C929AEB}.Debug|Win32.Build.0 = Debug|Win32
-		{BD763CE9-6860-49EA-8A5B-A0E70C929AEB}.Release|Win32.ActiveCfg = Release|Win32
-		{BD763CE9-6860-49EA-8A5B-A0E70C929AEB}.Release|Win32.Build.0 = Release|Win32
+		{4CEA0BAD-ED12-4798-B9EC-736315E03AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CEA0BAD-ED12-4798-B9EC-736315E03AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CEA0BAD-ED12-4798-B9EC-736315E03AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CEA0BAD-ED12-4798-B9EC-736315E03AEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84AB6285-4F49-4F75-8A33-67CEBCE202E8}
 	EndGlobalSection
 EndGlobal

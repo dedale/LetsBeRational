@@ -13,22 +13,17 @@
 // merchantability, fitness for a particular purpose, or non-infringement.
 // ======================================================================================
 //
-#ifndef   NORMAL_DISTRIBUTION_H
-#define   NORMAL_DISTRIBUTION_H
 
-#include <math.h>
-#include <cmath>
-#include "importexport.h"
+using System;
 
-#define ONE_OVER_SQRT_TWO     0.7071067811865475244008443621048490392848359376887
-#define ONE_OVER_SQRT_TWO_PI  0.3989422804014326779399460599343818684758586311649
-#define SQRT_TWO_PI           2.506628274631000502415765284811045253006986740610
+namespace Lets.Be
+{
+	static partial class Rational
+	{
+		const double ONE_OVER_SQRT_TWO     = 0.7071067811865475244008443621048490392848359376887;
+        const double ONE_OVER_SQRT_TWO_PI  = 0.3989422804014326779399460599343818684758586311649;
+        const double SQRT_TWO_PI           = 2.506628274631000502415765284811045253006986740610;
 
-EXPORT_EXTERN_C double erf_cody(double z);
-EXPORT_EXTERN_C double erfc_cody(double z);
-EXPORT_EXTERN_C double erfcx_cody(double z);
-EXPORT_EXTERN_C double norm_cdf(double z);
-inline double norm_pdf(double x){ return ONE_OVER_SQRT_TWO_PI*exp(-.5*x*x); }
-EXPORT_EXTERN_C double inverse_norm_cdf(double u);
-
-#endif // NORMAL_DISTRIBUTION_H
+        static double norm_pdf(double x) { return ONE_OVER_SQRT_TWO_PI * Math.Exp(-.5 * x * x); }
+    }
+}

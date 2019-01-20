@@ -2,3 +2,6 @@
 *.lib
 *.o
 *.dylib
+.vs
+obj
+bin
